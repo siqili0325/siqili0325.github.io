@@ -58,14 +58,14 @@ Research Experience
   * Oversaw and participated in wet lab and field work for an undergraduate research project which aimed to select possible candidate genes in QTL(quantitative trait locus) that could affect the seed size of Brassica napus L
 
   
-Skills
+<!-- Skills
 ======
 * Statistical analysis, data mining, mathematical modelling
 * Programming
   * R
   * C++/C
   * Python
-  * Matlab
+  * Matlab -->
 
   
 
