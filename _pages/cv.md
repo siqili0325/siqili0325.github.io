@@ -21,7 +21,7 @@ Work experience
 
 * Math Grader  &nbsp; *<font size="3"> Jan 2021 – Apr 2021 </font>*
   * Department of Mathematics, University of Michigan  
-  * Grader for [MATH 451](https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/400-level-courses.html) Advanced Calculus
+  * Grader for [MATH 451](https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/400-level-courses.html) Advanced Calculus I
 
 * Math Tutor &nbsp;  *<font size="3"> May 2020 - Aug 2020 </font>*
   * Science Learning Center, University of Michigan   
