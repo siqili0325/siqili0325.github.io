@@ -46,7 +46,7 @@ Research Experience
   * (Link to Pubmed)
 
 * Independent Study, May 2019 - Sep 2020
-  * Supervised by Professor [Annette Ostling](https://lsa.umich.edu/eeb/people/faculty/aostling.html), Department of Ecology and Evolutionary Biology 
+  * Supervised by Professor [Annette Ostling](https://cns.utexas.edu/directory/item/4562-ostling-annette?Itemid=349l), Department of Ecology and Evolutionary Biology 
   * Wrote code to establish mathematical modeling with the aim of testing the neutral theory, applying the approach earlier developed by the lab in small landscapes. Performed the method of predicting abundances on actual data gathered from BCI(Barro Colorado Island) and analyzed the association between the results of the simulations and traits as well as the habitat patterns of the species.
 
 * Research Intern, July 2019 - Aug 2019
