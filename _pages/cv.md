@@ -19,25 +19,25 @@ Education
 Work experience
 ======
 
-* *<font size="2"> Jan 2021 – Apr 2021 </font>*  Math Grader for MATH 451 Advanced Calculus I, Department of Mathematics, University of Michigan  
+* *<font size="3"> Jan 2021 – Apr 2021 </font>*  Math Grader for MATH 451 Advanced Calculus I, Department of Mathematics, University of Michigan  
 
-* *<font size="2"> May 2020 - Aug 2020 </font>*  Math Tutor, Science Learning Center, University of Michigan   
+* *<font size="3"> May 2020 - Aug 2020 </font>*  Math Tutor, Science Learning Center, University of Michigan   
 
-* *<font size="2"> Sep 2019 - Dec 2019 </font>*  Study Group Facilitator, Science Learning Center, University of Michigan 
+* *<font size="3"> Sep 2019 - Dec 2019 </font>*  Study Group Facilitator, Science Learning Center, University of Michigan 
 
 
 Past Research Experience
 ======
 
-* *<font size="2"> Jan 2020 - Apr 2021 </font>* Independent Study supervised by Professor [Kerby Shedden](https://lsa.umich.edu/stats/people/faculty/kshedden.html), Department of Statistics, University of Michigan
+* *<font size="3"> Jan 2020 - Apr 2021 </font>* Independent Study supervised by Professor [Kerby Shedden](https://lsa.umich.edu/stats/people/faculty/kshedden.html), Department of Statistics, University of Michigan
 
-* *<font size="2">Sep 2019 - Apr 2021 </font>* Research Assistant at [He Group](http://www.hegroup.org/index.php), University of Michigan Medical School
+* *<font size="3">Sep 2019 - Apr 2021 </font>* Research Assistant at [He Group](http://www.hegroup.org/index.php), University of Michigan Medical School
 
-* *<font size="2"> May 2019 - Sep 2020 </font>*  Independent Study supervised by [Ostling Lab](https://sites.google.com/umich.edu/ostlinglab/home), Department of Ecology and Evolutionary Biology, University of Michigan 
+* *<font size="3"> May 2019 - Sep 2020 </font>*  Independent Study supervised by [Ostling Lab](https://sites.google.com/umich.edu/ostlinglab/home), Department of Ecology and Evolutionary Biology, University of Michigan 
 
-* *<font size="2">July 2019 - Aug 2019 </font>*  Research Intern at [Dai Lab](http://isynbio.siat.ac.cn/dailab/), Shenzhen Institutes Of Advanced Technology, Chinese Academy of Sciences - Shenzhen
+* *<font size="3">July 2019 - Aug 2019 </font>*  Research Intern at [Dai Lab](http://isynbio.siat.ac.cn/dailab/), Shenzhen Institutes Of Advanced Technology, Chinese Academy of Sciences - Shenzhen
 
-* *<font size="2">Mar 2017 - Jun 2018 </font>*  Research Assistant at [Maoteng Li](http://faculty.hust.edu.cn/limaoteng/en/index.htm)'s lab, College of Life Science and Technology, Huazhong University of Science & Technology
+* *<font size="3">Mar 2017 - Jun 2018 </font>*  Research Assistant at [Maoteng Li](http://faculty.hust.edu.cn/limaoteng/en/index.htm)'s lab, College of Life Science and Technology, Huazhong University of Science & Technology
 
 
 
