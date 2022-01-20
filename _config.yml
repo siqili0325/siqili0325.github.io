@@ -67,9 +67,9 @@ analytics:
 author:
   name             : "Siqi Li"
   avatar           : "photo0.jpeg"
-  bio              : "PhD student at Duke-NUS Medical School"
+  bio              : "PhD student siqili@u.duke.nus.edu"
   location         : "Singapore"
-#   googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=n3zwPHkAAAAJ"
   email            : "siqili@u.duke.nus.edu"
   github           : "siqili0325"
   linkedin         : "siqi-li-1b7731183"
