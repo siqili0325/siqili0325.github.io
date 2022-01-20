@@ -13,9 +13,9 @@ redirect_from:
 Hi! 
 ------
 
-My name is Siqi, a PhD student at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/), Duke-NUS Medical School.
+I'm Siqi, a PhD student at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/), Duke-NUS Medical School.
 
-Prior to Duke-NUS, I obtained B.S. in Statistics and Mathematics, with High Distinction and High Honors in Statistics from the University of Michigan in April, 2021. Here's my [honors thesis](https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaObCmI/view). <br>
+Prior to Duke-NUS, I obtained B.S. in both Mathematics and Statistics with High Distinction and High Honors in Statistics from the University of Michigan in April, 2021. Here's the [link](https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaObCmI/view) to my honors thesis. <br>
 
 <!-- 
 Create content & metadata
