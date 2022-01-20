@@ -29,9 +29,11 @@ Work experience
 Past Research Experience
 ======
 
-* *<font size="3"> Jan 2020 - Apr 2021 </font>* &nbsp; Independent Study supervised by Professor [Kerby Shedden](https://lsa.umich.edu/stats/people/faculty/kshedden.html), Department of Statistics, University of Michigan
+* *<font size="3"> Jan 2020 - Apr 2021 </font>* &nbsp; 
+Independent Study supervised by Professor [Kerby Shedden](https://lsa.umich.edu/stats/people/faculty/kshedden.html), Department of Statistics, University of Michigan
 
-* *<font size="3">Sep 2019 - Apr 2021 </font>* &nbsp; Research Assistant at [He Group](http://www.hegroup.org/index.php), University of Michigan Medical School
+* *<font size="3">Sep 2019 - Apr 2021 </font>* &nbsp; 
+Research Assistant at [He Group](http://www.hegroup.org/index.php), University of Michigan Medical School
 
 * *<font size="3"> May 2019 - Sep 2020 </font>* &nbsp; Independent Study supervised by [Ostling Lab](https://sites.google.com/umich.edu/ostlinglab/home), Department of Ecology and Evolutionary Biology, University of Michigan 
 
