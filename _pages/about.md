@@ -10,7 +10,7 @@ redirect_from:
 
 <br>
 
-Biography 
+Hello! 
 ------
 
 I'm currently a PhD student at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/), Duke-NUS Medical School.
@@ -21,7 +21,7 @@ Here's the [link](https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaOb
 
 Contact
 ------
-siqili[at]duke.nus.edu
+Email: siqili[at]duke.nus.edu
 
 
 Research Interest
