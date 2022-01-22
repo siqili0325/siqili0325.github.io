@@ -67,8 +67,8 @@ analytics:
 author:
   name             : "Siqi Li"
   avatar           : "photo0.jpeg"
-  bio              : "A big fan of Alice Munro’s work "
-  #location         : "Singapore"
+  bio              : "A big fan of Alice Munro "
+  location         : "Singapore"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=n3zwPHkAAAAJ"
   #email            : "siqili@u.duke.nus.edu"
   github           : "siqili0325"
