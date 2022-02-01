@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-Please find my up to date publications on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+Please find my up to date publications <u><a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">here</a>.</u>
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
