@@ -26,8 +26,5 @@ Email: siqili[at]duke.nus.edu
 
 Research Interest
 ------
-Interpretable ML
+Interpretable ML, Federated Learning, Data Shift
 
-Federated Learning
-
-Data Shift
