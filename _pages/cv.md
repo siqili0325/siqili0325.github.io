@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. (3.91/4.0, High Distinction) in Statistics and Mathematics, with a Minor in Biology <br>
+* B.S. (3.91/4.0, High Distinction) in Mathematics and Statistics (High Honors)<br>, with a Minor in Biology <br>
   *University of Michigan, 2021*
 * Ph.D in Quantitative Biology and Medicine (concentration: Biostatistics and Health Data Science) <br>
   *Duke-Nus Medical School, 2025 (expected)*
