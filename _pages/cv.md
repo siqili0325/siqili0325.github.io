@@ -19,7 +19,7 @@ Education
 Experience
 ======
 
-* *<font size="3"> Dec 2022 – present </font>*  &nbsp; Internship (visiting phd student) supervised by Professor [Hamed Haddadi](https://www.imperial.ac.uk/people/h.haddadi), Department of Computing, Faculty of Engineering, Imperial College London
+* *<font size="3"> Dec 2022 – present </font>*  &nbsp; Research Intern (visiting phd student) supervised by Professor [Hamed Haddadi](https://www.imperial.ac.uk/people/h.haddadi), Department of Computing, Faculty of Engineering, Imperial College London
 
 * *<font size="3"> Jan 2021 – Apr 2021 </font>*  &nbsp; Math Grader for MATH 451 Advanced Calculus I, Department of Mathematics, University of Michigan  
 
