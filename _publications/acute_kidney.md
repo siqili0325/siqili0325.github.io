@@ -1,5 +1,5 @@
 ---
-title: "A novel interpretable machine learning system to generate clinical risk scores: An application for predicting early mortality or unplanned readmission in a retrospective cohort study"
+title: "Development and validation of an interpretable clinical score for early identification of acute kidney injury at the emergency department"
 collection: publications
 permalink: /publication/2022-05-02
 excerpt: 
