@@ -268,5 +268,6 @@ compress_html:
   ignore:
     envs: development
 
-theme: jekyll-theme-tactile
+# theme: jekyll-theme-tactile
+theme: jekyll-theme-architect/
 
