@@ -7,7 +7,7 @@ author_profile: true
 
 <br>
 
-Please find my up to date full list of publications <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">here</a>.
+Please find a full list of publications <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">here</a>.
 
 
 {% include base_path %}
