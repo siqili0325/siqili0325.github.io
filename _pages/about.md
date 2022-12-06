@@ -19,12 +19,12 @@ Prior to Duke-NUS, I obtained B.S. from the University of Michigan in April, 202
 Here's the [link](https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaObCmI/view) to my honors thesis. <br>
 
 
-Contact
-------
-Email: siqili[at]duke.nus.edu
-
-
 Research Interest
 ------
 Data Shift, Federated & Transfer Learning, Interpretable ML
+
+
+Contact
+------
+Email: siqili[at]duke.nus.edu
 
