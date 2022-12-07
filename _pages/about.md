@@ -13,7 +13,7 @@ redirect_from:
 Hello! 
 ------
 
-I'm Siqi Li, currently a PhD student at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/), Duke-NUS Medical School.
+I'm Siqi Li, currently a second year PhD student at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/), Duke-NUS Medical School.
 
 Prior to Duke-NUS, I obtained B.S. from the University of Michigan in April, 2021. <br>
 Here's the [link](https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaObCmI/view) to my honors thesis. <br>
