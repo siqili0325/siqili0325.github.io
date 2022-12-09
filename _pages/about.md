@@ -21,7 +21,7 @@ Here's the [link](https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaOb
 
 Research Interest
 ------
-Data Shift, Federated & Transfer Learning, Interpretable ML
+Clinical Decision-making, Data Shift, Federated & Transfer Learning, Interpretable ML
 
 
 Contact
