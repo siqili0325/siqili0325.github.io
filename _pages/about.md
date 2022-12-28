@@ -20,7 +20,7 @@ Prior to Duke-NUS, I obtained B.S. from the University of Michigan in May, 2021.
 
 Research Interest
 ------
-Clinical Decision-making, Data Shift, Federated & Transfer Learning, Interpretable ML
+Data Shift, Federated & Transfer Learning, Interpretable ML
 
 
 Contact
