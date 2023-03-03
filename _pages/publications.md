@@ -5,10 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<br>
-
 <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">Google Scholar Profile</a>
-
 
 {% include base_path %}
 
