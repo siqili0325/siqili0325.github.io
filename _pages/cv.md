@@ -33,7 +33,7 @@ Experience
 
 * *<font size="3"> May 2019 - Sep 2020 </font>*  &nbsp; Independent Study supervised by [Ostling Lab](https://sites.google.com/umich.edu/ostlinglab/home), Department of Ecology and Evolutionary Biology, University of Michigan 
 
-* *<font size="3"> July 2019 - Aug 2019 </font>* &nbsp;  Research Intern at [Dai Lab](http://isynbio.siat.ac.cn/dailab/), Shenzhen Institutes Of Advanced Technology, Chinese Academy of Sciences - Shenzhen
+<!-- * *<font size="3"> July 2019 - Aug 2019 </font>* &nbsp;  Research Intern at [Dai Lab](http://isynbio.siat.ac.cn/dailab/), Shenzhen Institutes Of Advanced Technology, Chinese Academy of Sciences - Shenzhen -->
 
 <!-- * *<font size="3"> Mar 2017 - Jun 2018 </font>*  &nbsp; Research Assistant at [Maoteng Li](http://faculty.hust.edu.cn/limaoteng/en/index.htm)'s lab, College of Life Science and Technology, Huazhong University of Science & Technology
  -->
