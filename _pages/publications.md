@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 
-<a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">Full list pulications</a>
+<a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">Full List of Pulications</a>
 
 {% include base_path %}
 
