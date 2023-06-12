@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "A universal AutoScore framework to develop interpretable scoring systems for predicting common types of clinical outcomes"
 collection: publications
 permalink: /publication/2023-05-12
@@ -10,6 +10,6 @@ citation: 'Feng Xie, Yilin Ning, Mingxuan Liu, Siqi Li, Seyed Ehsan Saffari, Han
 A universal AutoScore framework to develop interpretable scoring systems for predicting common types of clinical outcomes,
 STAR Protocol'
 ---
-
+ -->
 
 <!-- [Download paper here](https://arxiv.org/abs/2304.07310) -->
