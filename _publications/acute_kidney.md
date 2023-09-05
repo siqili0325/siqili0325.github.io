@@ -2,6 +2,7 @@
 title: "Development and validation of an interpretable clinical score for early identification of acute kidney injury at the emergency department"
 collection: publications
 permalink: /publication/2022-05-02
+pubtype: 'APP'
 excerpt: 
 date: 2022-05-02
 venue: 'Scientific Reports'
