@@ -3,6 +3,7 @@
 title: "Robust and Interpretable Machine Learning Assessment of Variable Importance with Moderate to Small Sample Sizes: A Study of Survival after Out-Of-Hospital Cardiac Arrest"
 collection: publications
 permalink: /publication/2023-04-20
+pubtype: 'XAI'
 excerpt: 
 date: 2023-04-20
 venue: 'SSRN preprint'
