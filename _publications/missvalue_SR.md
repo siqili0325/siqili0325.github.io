@@ -7,9 +7,7 @@ excerpt:
 date: 2023-05-16
 venue: 'Artificial Intelligence in Medicine'
 paperurl: 'https://doi.org/10.1016/j.artmed.2023.102587'
-citation: 'Mingxuan Liu#, Siqi Li#, Han Yuan, Marcus Eng Hock Ong, Yilin Ning, Feng Xie, Seyed Ehsan Saffari, Yuqing Shang, Victor Volovici, Bibhas Chakraborty, Nan Liu,
-Handling missing values in healthcare data: A systematic review of deep learning-based imputation techniques,
-Artificial Intelligence in Medicine'
+citation: 'Liu, M., <b><i>Li, S.</i></b>, Yuan, H., Ong, M. E. H., Ning, Y., Xie, F., ... & Liu, N. (2023). Handling missing values in healthcare data: A systematic review of deep learning-based imputation techniques. Artificial Intelligence in Medicine, 102587.'
 ---
 
 <!-- [Download paper here](https://doi.org/10.1016/j.artmed.2023.102587) -->
