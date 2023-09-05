@@ -10,35 +10,36 @@ author_profile: true
 
 {% include base_path %}
 
-## Federated & Transfer Learning
-
 {% include base_path %}
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
+<h2>Federated & Transfer Learning</h2>
+{% for post in site.publications reversed %}
+  {% if post.pubtype == 'FTL' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
-## Interpretable ML
 
-<h2>Journal Articles</h2>
+<h2>Interpretable ML</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'XAI' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-## Missing Values
 
-<h2>Conference Papers</h2>
+<h2>Missing Values</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'MV' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-## Clinical Applications
 
-<h2>Academic</h2>
+<h2>Clinical Applications</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'APP' %}
       {% include archive-single.html %}
