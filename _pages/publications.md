@@ -10,7 +10,7 @@ author_profile: true
 
 {% include base_path %}
 
-Federated & Transfer Learning
+### Federated & Transfer Learning
 
 {% include base_path %}
 {% for post in site.publications reversed %}
