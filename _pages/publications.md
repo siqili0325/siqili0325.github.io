@@ -5,17 +5,12 @@ permalink: /publications/
 author_profile: true
 ---
 
-[Federated & Transfer Learning](#journal-articles)\
-[Interpretable ML](#conference-papers)\
-[Missing Values](#academic)
-[Clinical Applications](#academic)
-
 
 <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">Full List of Pulications</a>
 
 {% include base_path %}
 
-## Federated & Transfer Learnin
+## Federated & Transfer Learning
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'FTL' %}
       {% include archive-single.html %}
