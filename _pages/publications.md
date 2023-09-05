@@ -10,7 +10,13 @@ author_profile: true
 
 {% include base_path %}
 
-Federated Learning & Distributed Algorithms
+Federated & Transfer Learning
+
+Interpretable ML
+
+Missing Values
+
+Clinical Applications
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
