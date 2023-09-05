@@ -2,6 +2,7 @@
 title: "FedScore: A privacy-preserving framework for federated scoring system developments"
 collection: publications
 permalink: /publication/2023-03-01
+pubtype: 'FTL'
 excerpt: 
 date: 2023-03-01
 venue: 'arXiv preprint'
