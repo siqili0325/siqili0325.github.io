@@ -2,6 +2,7 @@
 title: "Handling missing values in healthcare data: A systematic review of deep learning-based imputation techniques"
 collection: publications
 permalink: /publication/2023-05-16
+pubtype: 'MV'
 excerpt: 
 date: 2023-05-16
 venue: 'Artificial Intelligence in Medicine'
