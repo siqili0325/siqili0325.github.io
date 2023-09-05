@@ -12,12 +12,14 @@ author_profile: true
 
 Federated & Transfer Learning
 
+{% include base_path %}
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
 Interpretable ML
 
 Missing Values
 
 Clinical Applications
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
