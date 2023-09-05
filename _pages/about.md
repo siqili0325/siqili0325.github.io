@@ -20,7 +20,7 @@ Prior to Duke-NUS, I obtained B.S. in Mathematics and Statistics from the Univer
 
 Research Interest
 ------
-Data Shift, Federated & Transfer Learning, Interpretable ML
+Data Shift, Federated & Transfer Learning, Interpretable ML, Missing Values
 
 
 Contact
