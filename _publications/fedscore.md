@@ -10,6 +10,3 @@ pubtype: 'FTL'
 paperurl: 'https://arxiv.org/abs/2303.00282'
 citation: '<b>Li, S.</b>, Ning, Y., Ong, M.E., Chakraborty, B., Hong, C., Xie, F., Yuan, H., Liu, M., Buckland, D.M., Chen, Y., & Liu, N. (2023). FedScore: A privacy-preserving framework for federated scoring system development.'
 ---
-
-
-[Download paper here](https://arxiv.org/abs/2303.00282)
