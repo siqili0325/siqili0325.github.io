@@ -515,10 +515,10 @@ button {
   }
   .mfp-title {
     text-align: left;
-    line-height: 18px;
+    line-height: 15px;
     color: $mfp-caption-title-color;
     word-wrap: break-word;
-    padding-right: 36px; // leave some space for counter at right side
+    padding-right: 30px; // leave some space for counter at right side
   }
 
   .mfp-image-holder {
@@ -583,8 +583,8 @@ button {
         .mfp-close {
           top: 0;
           right: 0;
-          width: 35px;
-          height: 35px;
+          width: 30px;
+          height: 30px;
           line-height: 35px;
           background: rgba(0, 0, 0, 0.6);
           position: fixed;
