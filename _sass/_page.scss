@@ -325,22 +325,22 @@
 .comment__avatar-wrapper {
   float: left;
   width: 60px;
-  height: 60px;
+  height: 40px;
 
   @include breakpoint($large) {
     width: 100px;
-    height: 100px;
+    height: 60px;
   }
 }
 
 .comment__avatar {
   width: 40px;
-  height: 40px;
+  height: 30px;
   border-radius: 50%;
 
   @include breakpoint($large) {
     width: 80px;
-    height: 80px;
+    height: 60px;
     padding: 5px;
     border: 1px solid $border-color;
   }
@@ -395,7 +395,7 @@
 }
 
 .page__related-title {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-size: $type-size-7;
   text-transform: uppercase;
 }
