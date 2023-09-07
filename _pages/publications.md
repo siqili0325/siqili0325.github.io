@@ -13,7 +13,7 @@ author_profile: true
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-# Interpretable ML
+# Interpretable Machine Learning
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'XAI' %}
       {% include archive-single.html %}
@@ -25,7 +25,7 @@ author_profile: true
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-# Clinical Applications
+# Biomedical & Clinical Applications
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'APP' %}
       {% include archive-single.html %}
