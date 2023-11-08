@@ -4,7 +4,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-<a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">Full List of Pulications</a>
+<h1 style="color: red;">Selected Publications</h1>
+
+<a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">A full list of publications available here.</a>
 
 {% include base_path %}
 # Federated & Transfer Learning
