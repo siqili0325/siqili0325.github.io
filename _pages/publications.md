@@ -3,9 +3,7 @@ layout: archive
 permalink: /publications/
 author_profile: true
 ---
-
 {% include base_path %}
-
 ## Selected Publications
 <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">A full list of publications available here.</a>
 <br>
