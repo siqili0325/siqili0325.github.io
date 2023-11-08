@@ -17,18 +17,21 @@ author_profile: true
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+<br>
 # Interpretable Machine Learning
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'XAI' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+<br>
 # Missing Values
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'MV' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+<br>
 # Biomedical & Clinical Applications
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'APP' %}
