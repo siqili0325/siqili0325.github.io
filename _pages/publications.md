@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<h1 style="color: red;">Selected Publications</h1>
+<h1 style="color: navy;">Selected Publications</h1>
 
 <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">A full list of publications available here.</a>
 
