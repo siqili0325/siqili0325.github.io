@@ -10,14 +10,13 @@ redirect_from:
 {% include base_path %}
 
 ### Education
-======
+
 * B.S. (3.91/4.0, High Distinction) in Mathematics and Statistics (High Honors), with a Minor in Biology <br>
   *University of Michigan, 2021*
 * Ph.D in Biostatistics and Health Data Science <br>
   *Duke-Nus Medical School, 2025 (expected)*
 
 ### Experience
-======
 
 * *<font size="3"> Dec 2022 – May 2023 </font>*  &nbsp; Research Intern (visiting Phd student) supervised by Professor [Hamed Haddadi](https://www.imperial.ac.uk/people/h.haddadi), Department of Computing, Faculty of Engineering, Imperial College London
 
