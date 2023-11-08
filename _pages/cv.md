@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 ### Education
-* B.S. (3.91/4.0, High Distinction) in Mathematics and Statistics (High Honors), with a Minor in Biology <br>
+* B.S. (3.91/4.0, High Distinction) in Mathematics and Statistics ([High Honors](https://lsa.umich.edu/content/dam/stats-assets/statsdocuments/Undergraduate%20Reception%20Program_pages.pdf)), with a Minor in Biology <br>
   *University of Michigan, 2021*
 * Ph.D in Biostatistics and Health Data Science <br>
   *Duke-Nus Medical School, 2025 (expected)*
