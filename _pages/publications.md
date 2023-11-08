@@ -7,6 +7,8 @@ author_profile: true
 <h1 style="color: navy;">Selected Publications</h1>
 
 <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">A full list of publications available here.</a>
+<br>
+<br>
 
 {% include base_path %}
 # Federated & Transfer Learning
