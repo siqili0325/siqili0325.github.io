@@ -4,8 +4,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-# Selected Publications
-
 <a href="https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en">A full list of publications available here.</a>
 <br>
 <br>
