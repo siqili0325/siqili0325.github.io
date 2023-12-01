@@ -2,7 +2,7 @@
 title: "A novel interpretable machine learning system to generate clinical risk scores: An application for predicting early mortality or unplanned readmission in a retrospective cohort study"
 collection: publications
 permalink: /publication/2022-06-13
-pubtype: 'XAI'
+pubtype: 'APP'
 excerpt: 
 date: 2022-06-13
 venue: 'PLOS Digital Health'
