@@ -1,5 +1,5 @@
 ---
-title: "Developing Federated Time-to-Event Scores Using Heterogeneous RealWorld Survival Data"
+title: "Developing Federated Time-to-Event Scores Using Heterogeneous Real-World Survival Data"
 collection: publications
 permalink: /publication/2024-03-08
 pubtype: 'FTL'
