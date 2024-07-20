@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Candidate</a>. Duke-NUS Medical School, Singapore.
+subtitle: <a href='#'>PhD Candidate</a>. Duke-NUS Medical School. Singapore.
 
 profile:
   align: right
