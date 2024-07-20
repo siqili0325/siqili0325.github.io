@@ -13,9 +13,9 @@ profile:
     <p>Duke-NUS Medical School</p>
     <p>Singapore 169857</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I'm Siqi Li, currently a third year PhD candidate at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/). Prior to Duke-NUS, I obtained B.S. in Mathematics and Statistics from the University of Michigan, Ann Arbor. 
