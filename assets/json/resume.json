@@ -12,16 +12,15 @@
       "area": "Mathematics, Statistics",
       "studyType": "Bachelor of Science",
       "score": "3.9/4.0",
-      "courses": ["High Distinction & High Honors in Statistics"]
+      "courses": "High Distinction & High Honors in Statistics"
     }
   ],
   "experience": [
     {
+      "name": "Department of Computing, Faculty of Engineering, Imperial College London",
       "position": "Research Intern (Visiting PhD Student)",
-      "company": "Imperial College London",
-      "department": "Department of Computing, Faculty of Engineering",
       "supervisor": "Professor Hamed Haddadi",
-      "supervisor_link": "https://www.imperial.ac.uk/people/h.haddadi",
+      "url": "https://www.imperial.ac.uk/people/h.haddadi",
       "startDate": "Dec 2022",
       "endDate": "May 2023"
     },
