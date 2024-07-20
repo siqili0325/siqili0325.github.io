@@ -7,7 +7,7 @@ subtitle: <a href='#'>PhD Candidate</a>. Duke-NUS Medical School. Singapore.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Centre for Quantitative Medicine</p>
     <p>Duke-NUS Medical School</p>
@@ -15,7 +15,7 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I'm Siqi Li, currently a third year PhD candidate at [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/). Prior to Duke-NUS, I obtained B.S. in Mathematics and Statistics from the University of Michigan, Ann Arbor. 
