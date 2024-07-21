@@ -37,22 +37,6 @@
   abstract={Survival analysis serves as a fundamental component in numerous healthcare applications, where the determination of the time to specific events (such as the onset of a certain disease or death) for patients is crucial for clinical decision-making. Scoring systems are widely used for swift and efficient risk prediction. However, existing methods for constructing survival scores presume that data originates from a single source, posing privacy challenges in collaborations with multiple data owners. We propose a novel framework for building federated scoring systems for multi-site survival outcomes, ensuring both privacy and communication efficiency. We applied our approach to sites with heterogeneous survival data originating from emergency departments in Singapore and the United States. Additionally, we independently developed local scores at each site. In testing datasets from each participant site, our proposed federated scoring system consistently outperformed all local models, evidenced by higher integrated area under the receiver operating characteristic curve (iAUC) values, with a maximum improvement of 11.6%. Additionally, the federated score's time-dependent AUC(t) values showed advantages over local scores, exhibiting narrower confidence intervals (CIs) across most time points. The model developed through our proposed method exhibits effective performance on each local site, signifying noteworthy implications for healthcare research. Sites participating in our proposed federated scoring model training gained benefits by acquiring survival models with enhanced prediction accuracy and efficiency. This study demonstrates the effectiveness of our privacy-preserving federated survival score generation framework and its applicability to real-world heterogeneous survival data.}
 }
 
-@article{10.1093/narcan/zcad060,
-    author = {Asfaw, Eliyas and Lin, Asiyah Yu and Huffman, Anthony and Li, Siqi and George, Madison and Darancou, Chloe and Kalter, Madison and Wehbi, Nader and Bartels, Davis and Fleck, Elyse and Tran, Nancy and Faghihnia, Daniel and Berke, Kimberly and Sutariya, Ronak and Reyal, Farah and Tammam, Youssef and Zhao, Bin and Ong, Edison and Xiang, Zuoshuang and He, Virginia and Song, Justin and Seleznev, Andrey I and Guo, Jinjing and Pan, Yuanyi and Zheng, Jie and He, Yongqun},
-    title = "{CanVaxKB: a web-based cancer vaccine knowledgebase}",
-    journal = {NAR Cancer},
-    volume = {6},
-    number = {1},
-    pages = {zcad060},
-    year = {2024},
-    month = {01},
-    abstract = "{Cancer vaccines have been increasingly studied and developed to prevent or treat various types of cancers. To systematically survey and analyze different reported cancer vaccines, we developed CanVaxKB (https://violinet.org/canvaxkb), the first web-based cancer vaccine knowledgebase that compiles over 670 therapeutic or preventive cancer vaccines that have been experimentally verified to be effective at various stages. Vaccine construction and host response data are also included. These cancer vaccines are developed against various cancer types such as melanoma, hematological cancer, and prostate cancer. CanVaxKB has stored 263 genes or proteins that serve as cancer vaccine antigen genes, which we have collectively termed ‘canvaxgens’. Top three mostly used canvaxgens are PMEL, MLANA and CTAG1B, often targeting multiple cancer types. A total of 193 canvaxgens are also reported in cancer-related ONGene, Network of Cancer Genes and/or Sanger Cancer Gene Consensus databases. Enriched functional annotations and clusters of canvaxgens were identified and analyzed. User-friendly web interfaces are searchable for querying and comparing cancer vaccines. CanVaxKB cancer vaccines are also semantically represented by the community-based Vaccine Ontology to support data exchange. Overall, CanVaxKB is a timely and vital cancer vaccine source that facilitates efficient collection and analysis, further helping researchers and physicians to better understand cancer mechanisms.}",
-    issn = {2632-8674},
-    doi = {10.1093/narcan/zcad060},
-    url = {https://doi.org/10.1093/narcan/zcad060},
-    eprint = {https://academic.oup.com/narcancer/article-pdf/6/1/zcad060/55261340/zcad060.pdf},
-}
-
 @article{TEO2024101419,
 title = {Federated machine learning in healthcare: A systematic review on clinical applications and technical architecture},
 journal = {Cell Reports Medicine},
@@ -68,6 +52,22 @@ author = {Zhen Ling Teo and Liyuan Jin and Nan Liu and Siqi Li and Di Miao and X
 keywords = {federated learning, systematic review, artificial intelligence, healthcare},
 abstract = {Summary
 Federated learning (FL) is a distributed machine learning framework that is gaining traction in view of increasing health data privacy protection needs. By conducting a systematic review of FL applications in healthcare, we identify relevant articles in scientific, engineering, and medical journals in English up to August 31st, 2023. Out of a total of 22,693 articles under review, 612 articles are included in the final analysis. The majority of articles are proof-of-concepts studies, and only 5.2% are studies with real-life application of FL. Radiology and internal medicine are the most common specialties involved in FL. FL is robust to a variety of machine learning models and data types, with neural networks and medical imaging being the most common, respectively. We highlight the need to address the barriers to clinical translation and to assess its real-world impact in this new digital data-driven healthcare scene.}
+}
+
+@article{10.1093/narcan/zcad060,
+    author = {Asfaw, Eliyas and Lin, Asiyah Yu and Huffman, Anthony and Li, Siqi and George, Madison and Darancou, Chloe and Kalter, Madison and Wehbi, Nader and Bartels, Davis and Fleck, Elyse and Tran, Nancy and Faghihnia, Daniel and Berke, Kimberly and Sutariya, Ronak and Reyal, Farah and Tammam, Youssef and Zhao, Bin and Ong, Edison and Xiang, Zuoshuang and He, Virginia and Song, Justin and Seleznev, Andrey I and Guo, Jinjing and Pan, Yuanyi and Zheng, Jie and He, Yongqun},
+    title = "{CanVaxKB: a web-based cancer vaccine knowledgebase}",
+    journal = {NAR Cancer},
+    volume = {6},
+    number = {1},
+    pages = {zcad060},
+    year = {2024},
+    month = {01},
+    abstract = "{Cancer vaccines have been increasingly studied and developed to prevent or treat various types of cancers. To systematically survey and analyze different reported cancer vaccines, we developed CanVaxKB (https://violinet.org/canvaxkb), the first web-based cancer vaccine knowledgebase that compiles over 670 therapeutic or preventive cancer vaccines that have been experimentally verified to be effective at various stages. Vaccine construction and host response data are also included. These cancer vaccines are developed against various cancer types such as melanoma, hematological cancer, and prostate cancer. CanVaxKB has stored 263 genes or proteins that serve as cancer vaccine antigen genes, which we have collectively termed ‘canvaxgens’. Top three mostly used canvaxgens are PMEL, MLANA and CTAG1B, often targeting multiple cancer types. A total of 193 canvaxgens are also reported in cancer-related ONGene, Network of Cancer Genes and/or Sanger Cancer Gene Consensus databases. Enriched functional annotations and clusters of canvaxgens were identified and analyzed. User-friendly web interfaces are searchable for querying and comparing cancer vaccines. CanVaxKB cancer vaccines are also semantically represented by the community-based Vaccine Ontology to support data exchange. Overall, CanVaxKB is a timely and vital cancer vaccine source that facilitates efficient collection and analysis, further helping researchers and physicians to better understand cancer mechanisms.}",
+    issn = {2632-8674},
+    doi = {10.1093/narcan/zcad060},
+    url = {https://doi.org/10.1093/narcan/zcad060},
+    eprint = {https://academic.oup.com/narcancer/article-pdf/6/1/zcad060/55261340/zcad060.pdf},
 }
 
 @misc{li2023federatedlearningclinicalstructured,
@@ -122,23 +122,6 @@ This study demonstrates that FedScore is a privacy-preserving scoring system gen
     selected={true}
 }
 
-@article{XIE2023102302,
-title = {A universal AutoScore framework to develop interpretable scoring systems for predicting common types of clinical outcomes},
-journal = {STAR Protocols},
-volume = {4},
-number = {2},
-pages = {102302},
-year = {2023},
-month={06},
-issn = {2666-1667},
-doi = {https://doi.org/10.1016/j.xpro.2023.102302},
-url = {https://www.sciencedirect.com/science/article/pii/S2666166723002691},
-author = {Feng Xie and Yilin Ning and Mingxuan Liu and Siqi Li and Seyed Ehsan Saffari and Han Yuan and Victor Volovici and Daniel Shu Wei Ting and Benjamin Alan Goldstein and Marcus Eng Hock Ong and Roger Vaughan and Bibhas Chakraborty and Nan Liu},
-keywords = {Health Sciences, Computer sciences},
-abstract = {Summary
-The AutoScore framework can automatically generate data-driven clinical scores in various clinical applications. Here, we present a protocol for developing clinical scoring systems for binary, survival, and ordinal outcomes using the open-source AutoScore package. We describe steps for package installation, detailed data processing and checking, and variable ranking. We then explain how to iterate through steps for variable selection, score generation, fine-tuning, and evaluation to generate understandable and explainable scoring systems using data-driven evidence and clinical knowledge. For complete details on the use and execution of this protocol, please refer to Xie et al. (2020),1 Xie et al. (2022)2, Saffari et al. (2022)3 and the online tutorial https://nliulab.github.io/AutoScore/.}
-}
-
 @article{LIU2023102587,
 title = {Handling missing values in healthcare data: A systematic review of deep learning-based imputation techniques},
 journal = {Artificial Intelligence in Medicine},
@@ -161,6 +144,22 @@ Conclusion
 The DL-based imputation models are a family of techniques, with diverse network structures. Their designation in healthcare is usually tailored to data types with different characteristics. Although DL-based imputation models may not be superior to conventional approaches across all datasets, it is highly possible for them to achieve satisfactory results for a particular data type or dataset. There are, however, still issues with regard to portability, interpretability, and fairness associated with current DL-based imputation models.}
 }
 
+@article{XIE2023102302,
+title = {A universal AutoScore framework to develop interpretable scoring systems for predicting common types of clinical outcomes},
+journal = {STAR Protocols},
+volume = {4},
+number = {2},
+pages = {102302},
+year = {2023},
+month={06},
+issn = {2666-1667},
+doi = {https://doi.org/10.1016/j.xpro.2023.102302},
+url = {https://www.sciencedirect.com/science/article/pii/S2666166723002691},
+author = {Feng Xie and Yilin Ning and Mingxuan Liu and Siqi Li and Seyed Ehsan Saffari and Han Yuan and Victor Volovici and Daniel Shu Wei Ting and Benjamin Alan Goldstein and Marcus Eng Hock Ong and Roger Vaughan and Bibhas Chakraborty and Nan Liu},
+keywords = {Health Sciences, Computer sciences},
+abstract = {Summary
+The AutoScore framework can automatically generate data-driven clinical scores in various clinical applications. Here, we present a protocol for developing clinical scoring systems for binary, survival, and ordinal outcomes using the open-source AutoScore package. We describe steps for package installation, detailed data processing and checking, and variable ranking. We then explain how to iterate through steps for variable selection, score generation, fine-tuning, and evaluation to generate understandable and explainable scoring systems using data-driven evidence and clinical knowledge. For complete details on the use and execution of this protocol, please refer to Xie et al. (2020),1 Xie et al. (2022)2, Saffari et al. (2022)3 and the online tutorial https://nliulab.github.io/AutoScore/.}
+}
 @article{xie2022benchmarking,
   title={Benchmarking emergency department prediction models with machine learning and public electronic health records},
   author={Xie, Feng and Zhou, Jun and Lee, Jin Wee and Tan, Mingrui and Li, Siqi and Rajnthern, Logasan S/O and Chee, Marcel Lucas and Chakraborty, Bibhas and Wong, An-Kwok Ian and Dagan, Alon and Ong, Marcus Eng Hock and Gao, Fei and Liu, Nan},
