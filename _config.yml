@@ -32,8 +32,8 @@ repo_theme_light: light # https://github.com/anuraghazra/github-readme-stats/blo
 repo_theme_dark: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: oldie # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: apprentice # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -366,7 +366,7 @@ filtered_bibtex_keywords:
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit: 3 # leave blank to always show all authors
-more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
+more_authors_animation_delay: 5 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
