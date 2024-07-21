@@ -5,5 +5,5 @@ title: CV
 nav: true
 nav_order: 3
 toc:
-  sidebar: left
+  sidebar: right
 ---
