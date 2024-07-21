@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: Siqi Li
-    - name: Date of Birth
-      value: 25th March 1998
+    # - name: Date of Birth
+    #   value: 25th March 1998
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
@@ -15,18 +15,18 @@
       institution: University of Michigan, Ann Arbor, Michigan, USA
       year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Mathematics, Statistics (GPA 3.9/4.0)
+        - High Distinction & High Honors in Statistics
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
 
 - title: Experience
   type: time_table
