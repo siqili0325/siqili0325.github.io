@@ -1,12 +1,12 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Siqi Li
-    # - name: Date of Birth
-    #   value: 25th March 1998
-    # - name: Languages
-    #   value: English, Chinese
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Siqi Li
+#     # - name: Date of Birth
+#     #   value: 25th March 1998
+#     # - name: Languages
+#     #   value: English, Chinese
 
 - title: Education
   type: time_table
