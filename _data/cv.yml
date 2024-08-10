@@ -11,12 +11,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: BSc
+    - title: Bachelor of Science
       institution: University of Michigan, Ann Arbor, Michigan, USA
       year: 2021
       description:
-        - Mathematics, Statistics (GPA 3.9/4.0)
-        - High Distinction & High Honors in Statistics
+        - Mathematics, Statistics (GPA 3.9/4.0, High Distinction)
+        - High Honors in Statistics
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
