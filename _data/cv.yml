@@ -5,8 +5,8 @@
       value: Siqi Li
     # - name: Date of Birth
     #   value: 25th March 1998
-    - name: Languages
-      value: English, Chinese
+    # - name: Languages
+    #   value: English, Chinese
 
 - title: Education
   type: time_table
@@ -35,22 +35,21 @@
       institution: Department of Computing, Imperial Colllege London
       year:  2023
       description:
-        - Visiting PhD student.
-        - Supervised by Prof. Hamed Haddadi
+        - Visiting PhD student
+        - Supervised by Prof. [Hamed Haddadi](https://profiles.imperial.ac.uk/h.haddadi)
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Math Grader
+      institution: Department of Mathematics, University of Michigan
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Math 451 Advanced Calculus I
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Independent Study
+      institution: Department of Statistics, University of Michigan
+      year: Honors thesis supervised by Prof. Kerby Shedden
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
@@ -61,12 +60,12 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 # - title: Honors and Awards
 #   type: time_table
@@ -82,16 +81,16 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Federated & Transfer Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Applications to EHRs
+        # - Description 2.
+    - title: Missing Values
+      # items:
+      #   - Description 1.
+      #   - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
