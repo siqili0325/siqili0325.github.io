@@ -18,5 +18,5 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-I'm a 4th-year PhD candidate at the [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/). Before joining Duke-NUS, I earned a B.S. in Mathematics and Statistics from the University of Michigan, Ann Arbor in 2021. My research focuses on federated and transfer learning.
+I'm a PhD candidate at the [Digital Medicine Lab](https://blog.nus.edu.sg/liunan/). Before joining Duke-NUS, I earned a B.S. in Mathematics and Statistics from the University of Michigan, Ann Arbor in 2021. My research focuses on federated and transfer learning.
 
