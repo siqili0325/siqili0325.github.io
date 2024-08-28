@@ -20,8 +20,8 @@
     year = {2024},
     month = {07},
     volume = {3},
-    url = {https://doi.org/10.1371/journal.pdig.0000542},
     html={https://doi.org/10.1371/journal.pdig.0000542},
+    code={https://github.com/flemergency/FedIMPUTE},
     pages = {1-15},
     abstract = {Machine learning (ML) methods are increasingly used to assess variable importance, but such black box models lack stability when limited in sample sizes, and do not formally indicate non-important factors. The Shapley variable importance cloud (ShapleyVIC) addresses these limitations by assessing variable importance from an ensemble of regression models, which enhances robustness while maintaining interpretability, and estimates uncertainty of overall importance to formally test its significance. In a clinical study, ShapleyVIC reasonably identified important variables when the random forest and XGBoost failed to, and generally reproduced the findings from smaller subsamples (n = 2500 and 500) when statistical power of the logistic regression became attenuated. Moreover, ShapleyVIC reasonably estimated non-significant importance of race to justify its exclusion from the final prediction model, as opposed to the race-dependent model from the conventional stepwise model building. Hence, ShapleyVIC is robust and interpretable for variable importance assessment, with potential contribution to fairer clinical risk prediction.},
     number = {7},
@@ -32,6 +32,7 @@
   author={Li, Siqi and Li, Xin and Yu, Kunyu and Miao, Di and Zhu, Mingcheng and Yan, Mengying and Ke, Yuhe and D'Agostino, Danny and Ning, Yilin and Wu, Qiming and Wang, Ziwen and Shang, Yuqing and Liu, Molei and Hong, Chuan and Liu, Nan},
   journal={arXiv preprint arXiv:2407.11034},
   year={2024},
+  html={https://arxiv.org/abs/2407.11034},
   abstract={Clinical and biomedical research in low-resource settings often faces significant challenges due to the need for high-quality data with sufficient sample sizes to construct effective models. These constraints hinder robust model training and prompt researchers to seek methods for leveraging existing knowledge from related studies to support new research efforts. Transfer learning (TL), a machine learning technique, emerges as a powerful solution by utilizing knowledge from pre-trained models to enhance the performance of new models, offering promise across various healthcare domains. Despite its conceptual origins in the 1990s, the application of TL in medical research has remained limited, especially beyond image analysis. In our review of TL applications in structured clinical and biomedical data, we screened 3,515 papers, with 55 meeting the inclusion criteria. Among these, only 2% (one out of 55) utilized external studies, and 7% (four out of 55) addressed scenarios involving multi-site collaborations with privacy constraints. To achieve actionable TL with structured medical data while addressing regional disparities, inequality, and privacy constraints in healthcare research, we advocate for the careful identification of appropriate source data and models, the selection of suitable TL frameworks, and the validation of TL models with proper baselines.}
 }
 
@@ -41,6 +42,7 @@
   journal={arXiv preprint arXiv:2403.05229},
   year={2024},
   month={03},
+  html={https://arxiv.org/abs/2403.05229},
   abstract={Survival analysis serves as a fundamental component in numerous healthcare applications, where the determination of the time to specific events (such as the onset of a certain disease or death) for patients is crucial for clinical decision-making. Scoring systems are widely used for swift and efficient risk prediction. However, existing methods for constructing survival scores presume that data originates from a single source, posing privacy challenges in collaborations with multiple data owners. We propose a novel framework for building federated scoring systems for multi-site survival outcomes, ensuring both privacy and communication efficiency. We applied our approach to sites with heterogeneous survival data originating from emergency departments in Singapore and the United States. Additionally, we independently developed local scores at each site. In testing datasets from each participant site, our proposed federated scoring system consistently outperformed all local models, evidenced by higher integrated area under the receiver operating characteristic curve (iAUC) values, with a maximum improvement of 11.6%. Additionally, the federated score's time-dependent AUC(t) values showed advantages over local scores, exhibiting narrower confidence intervals (CIs) across most time points. The model developed through our proposed method exhibits effective performance on each local site, signifying noteworthy implications for healthcare research. Sites participating in our proposed federated scoring model training gained benefits by acquiring survival models with enhanced prediction accuracy and efficiency. This study demonstrates the effectiveness of our privacy-preserving federated survival score generation framework and its applicability to real-world heterogeneous survival data.}
 }
 
