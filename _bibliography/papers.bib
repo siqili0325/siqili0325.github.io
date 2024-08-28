@@ -8,6 +8,7 @@
   year={2024},
   month = {08},
   html={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930174},
+  code={https://github.com/flemergency/FedIMPUTE},
   abstract={Objectives:We propose FedIMPUTE, a communication-efficient federated learning (FL) based approach for missing value imputation (MVI). Our method enables multiple sites to collaboratively perform MVI in a privacy-preserving manner, addressing challenges of data-sharing constraints and population heterogeneity.Methods:We begin by conducting MVI locally at each participating site, followed by the application of various FL strategies, ranging from basic to advanced, to federate local MVI models without sharing site-specific data. The federated model is then broadcast and used by each site for MVI. We evaluate FedIMPUTE using both simulation studies and a real-world application on electronic health records (EHRs) to predict emergency department (ED) outcomes as a proof of concept. Results:Simulation studies show that FedIMPUTE outperforms all baseline MVI methods under comparison, improving downstream prediction performance and effectively handling data heterogeneity across sites. By using ED datasets from three hospitals within the Duke University Health System (DUHS), FedIMPUTE achieves the lowest mean squared error (MSE) among benchmark MVI methods, indicating superior imputation accuracy. Additionally, FedIMPUTE provides good downstream prediction performance, outperforming or matching other benchmark methods.Conclusion:FedIMPUTE enhances the performance of downstream risk prediction tasks, particularly for sites with high missing data rates and small sample sizes. It is easy to implement and communication-efficient, requiring sites to share only non-patient-level summary statistics.}
 }
 
@@ -21,7 +22,7 @@
     month = {07},
     volume = {3},
     html={https://doi.org/10.1371/journal.pdig.0000542},
-    code={https://github.com/flemergency/FedIMPUTE},
+    code={https://github.com/nliulab/ShapleyVIC},
     pages = {1-15},
     abstract = {Machine learning (ML) methods are increasingly used to assess variable importance, but such black box models lack stability when limited in sample sizes, and do not formally indicate non-important factors. The Shapley variable importance cloud (ShapleyVIC) addresses these limitations by assessing variable importance from an ensemble of regression models, which enhances robustness while maintaining interpretability, and estimates uncertainty of overall importance to formally test its significance. In a clinical study, ShapleyVIC reasonably identified important variables when the random forest and XGBoost failed to, and generally reproduced the findings from smaller subsamples (n = 2500 and 500) when statistical power of the logistic regression became attenuated. Moreover, ShapleyVIC reasonably estimated non-significant importance of race to justify its exclusion from the final prediction model, as opposed to the race-dependent model from the conventional stepwise model building. Hence, ShapleyVIC is robust and interpretable for variable importance assessment, with potential contribution to fairer clinical risk prediction.},
     number = {7},
@@ -43,6 +44,7 @@
   year={2024},
   month={03},
   html={https://arxiv.org/abs/2403.05229},
+  code={https://github.com/nliulab/FedScore},
   abstract={Survival analysis serves as a fundamental component in numerous healthcare applications, where the determination of the time to specific events (such as the onset of a certain disease or death) for patients is crucial for clinical decision-making. Scoring systems are widely used for swift and efficient risk prediction. However, existing methods for constructing survival scores presume that data originates from a single source, posing privacy challenges in collaborations with multiple data owners. We propose a novel framework for building federated scoring systems for multi-site survival outcomes, ensuring both privacy and communication efficiency. We applied our approach to sites with heterogeneous survival data originating from emergency departments in Singapore and the United States. Additionally, we independently developed local scores at each site. In testing datasets from each participant site, our proposed federated scoring system consistently outperformed all local models, evidenced by higher integrated area under the receiver operating characteristic curve (iAUC) values, with a maximum improvement of 11.6%. Additionally, the federated score's time-dependent AUC(t) values showed advantages over local scores, exhibiting narrower confidence intervals (CIs) across most time points. The model developed through our proposed method exhibits effective performance on each local site, signifying noteworthy implications for healthcare research. Sites participating in our proposed federated scoring model training gained benefits by acquiring survival models with enhanced prediction accuracy and efficiency. This study demonstrates the effectiveness of our privacy-preserving federated survival score generation framework and its applicability to real-world heterogeneous survival data.}
 }
 
@@ -86,6 +88,7 @@ Federated learning (FL) is a distributed machine learning framework that is gain
       year={2023},
       month={11},
       html={https://arxiv.org/abs/2311.03417},
+      code={https://github.com/nliulab/FL-Benchmark},
       abstract={Federated learning (FL) has shown promising potential in safeguarding data privacy in healthcare collaborations. While the term “FL” was originally coined by the engineering community, the statistical field has also explored similar privacy-preserving algorithms. Statistical FL algorithms, however, remain considerably less recognized than their engineering counterparts. Our goal was to bridge the gap by presenting the first comprehensive comparison of FL frameworks from both engineering and statistical domains. We evaluated five FL frameworks using both simulated and real-world data. The results indicate that statistical FL algorithms yield less biased point estimates for model coefficients and offer convenient confidence interval estimations. In contrast, engineering-based methods tend to generate more accurate predictions, sometimes surpassing central pooled and statistical FL models. This study underscores the relative strengths and weaknesses of both types of methods, emphasizing the need for increased awareness and their integration in future FL applications.}
 }
 
@@ -98,6 +101,7 @@ Federated learning (FL) is a distributed machine learning framework that is gain
   year={2023},
   month={10},
   publisher={Elsevier},
+  code={https://github.com/nliulab/FedScore},
   html={https://www.sciencedirect.com/science/article/abs/pii/S153204642300206X},
   abstract={Objective
 We propose FedScore, a privacy-preserving federated learning framework for scoring system generation across multiple sites to facilitate cross-institutional collaborations.
@@ -163,6 +167,7 @@ month={06},
 issn = {2666-1667},
 doi = {https://doi.org/10.1016/j.xpro.2023.102302},
 html = {https://www.sciencedirect.com/science/article/pii/S2666166723002691},
+code={https://github.com/nliulab/AutoScore},
 author = {Feng Xie and Yilin Ning and Mingxuan Liu and Siqi Li and Seyed Ehsan Saffari and Han Yuan and Victor Volovici and Daniel Shu Wei Ting and Benjamin Alan Goldstein and Marcus Eng Hock Ong and Roger Vaughan and Bibhas Chakraborty and Nan Liu},
 keywords = {Health Sciences, Computer sciences},
 abstract = {Summary
@@ -180,6 +185,7 @@ The AutoScore framework can automatically generate data-driven clinical scores i
   month={10},
   publisher={Nature Publishing Group UK London},
   html={https://www.nature.com/articles/s41597-022-01782-9},
+  code={https://github.com/nliulab/mimic4ed-benchmark},
   abstract={The demand for emergency department (ED) services is increasing across the globe, particularly during the current COVID-19 pandemic. Clinical triage and risk assessment have become increasingly challenging due to the shortage of medical resources and the strain on hospital infrastructure caused by the pandemic. As a result of the widespread use of electronic health records (EHRs), we now have access to a vast amount of clinical data, which allows us to develop prediction models and decision support systems to address these challenges. To date, there is no widely accepted clinical prediction benchmark related to the ED based on large-scale public EHRs. An open-source benchmark data platform would streamline research workflows by eliminating cumbersome data preprocessing, and facilitate comparisons among different studies and methodologies. Based on the Medical Information Mart for Intensive Care IV Emergency Department (MIMIC-IV-ED) database, we created a benchmark dataset and proposed three clinical prediction benchmarks. This study provides future researchers with insights, suggestions, and protocols for managing data and developing predictive tools for emergency care.}
 }
 
@@ -193,6 +199,7 @@ The AutoScore framework can automatically generate data-driven clinical scores i
   year={2022},
   month={06},
   publisher={Public Library of Science San Francisco, CA USA},
+  code={https://github.com/nliulab/ShapleyVIC},
   html={https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000062},
   abstract={Risk scores are widely used for clinical decision making and commonly generated from logistic regression models. Machine-learning-based methods may work well for identifying important predictors to create parsimonious scores, but such ‘black box’ variable selection limits interpretability, and variable importance evaluated from a single model can be biased. We propose a robust and interpretable variable selection approach using the recently developed Shapley variable importance cloud (ShapleyVIC) that accounts for variability in variable importance across models. Our approach evaluates and visualizes overall variable contributions for in-depth inference and transparent variable selection, and filters out non-significant contributors to simplify model building steps. We derive an ensemble variable ranking from variable contributions across models, which is easily integrated with an automated and modularized risk score generator, AutoScore, for convenient implementation. In a study of early death or unplanned readmission after hospital discharge, ShapleyVIC selected 6 variables from 41 candidates to create a well-performing risk score, which had similar performance to a 16-variable model from machine-learning-based ranking. Our work contributes to the recent emphasis on interpretability of prediction models for high-stakes decision making, providing a disciplined solution to detailed assessment of variable importance and transparent development of parsimonious clinical risk scores.}
 }
