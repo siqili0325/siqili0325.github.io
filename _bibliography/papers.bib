@@ -7,7 +7,7 @@
   journal={Available at SSRN 4423470}, 
   year={2024},
   month = {08},
-  url={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930174},
+  html={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930174},
   abstract={Objectives:We propose FedIMPUTE, a communication-efficient federated learning (FL) based approach for missing value imputation (MVI). Our method enables multiple sites to collaboratively perform MVI in a privacy-preserving manner, addressing challenges of data-sharing constraints and population heterogeneity.Methods:We begin by conducting MVI locally at each participating site, followed by the application of various FL strategies, ranging from basic to advanced, to federate local MVI models without sharing site-specific data. The federated model is then broadcast and used by each site for MVI. We evaluate FedIMPUTE using both simulation studies and a real-world application on electronic health records (EHRs) to predict emergency department (ED) outcomes as a proof of concept. Results:Simulation studies show that FedIMPUTE outperforms all baseline MVI methods under comparison, improving downstream prediction performance and effectively handling data heterogeneity across sites. By using ED datasets from three hospitals within the Duke University Health System (DUHS), FedIMPUTE achieves the lowest mean squared error (MSE) among benchmark MVI methods, indicating superior imputation accuracy. Additionally, FedIMPUTE provides good downstream prediction performance, outperforming or matching other benchmark methods.Conclusion:FedIMPUTE enhances the performance of downstream risk prediction tasks, particularly for sites with high missing data rates and small sample sizes. It is easy to implement and communication-efficient, requiring sites to share only non-patient-level summary statistics.}
 }
 
@@ -21,6 +21,7 @@
     month = {07},
     volume = {3},
     url = {https://doi.org/10.1371/journal.pdig.0000542},
+    html={https://doi.org/10.1371/journal.pdig.0000542},
     pages = {1-15},
     abstract = {Machine learning (ML) methods are increasingly used to assess variable importance, but such black box models lack stability when limited in sample sizes, and do not formally indicate non-important factors. The Shapley variable importance cloud (ShapleyVIC) addresses these limitations by assessing variable importance from an ensemble of regression models, which enhances robustness while maintaining interpretability, and estimates uncertainty of overall importance to formally test its significance. In a clinical study, ShapleyVIC reasonably identified important variables when the random forest and XGBoost failed to, and generally reproduced the findings from smaller subsamples (n = 2500 and 500) when statistical power of the logistic regression became attenuated. Moreover, ShapleyVIC reasonably estimated non-significant importance of race to justify its exclusion from the final prediction model, as opposed to the race-dependent model from the conventional stepwise model building. Hence, ShapleyVIC is robust and interpretable for variable importance assessment, with potential contribution to fairer clinical risk prediction.},
     number = {7},
