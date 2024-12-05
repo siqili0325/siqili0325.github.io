@@ -1,6 +1,22 @@
 ---
 ---
 
+@article{FLB,
+author = {Siqi Li  and Di Miao  and Qiming Wu  and Chuan Hong  and Danny D’Agostino  and Xin Li  and Yilin Ning  and Yuqing Shang  and Ziwen Wang  and Molei Liu  and Huazhu Fu  and Marcus Eng Hock Ong  and Hamed Haddadi  and Nan Liu },
+title = {Federated Learning in Healthcare: A Benchmark Comparison of Engineering and Statistical Approaches for Structured Data Analysis},
+journal = {Health Data Science},
+volume = {4},
+number = {},
+year = {2024},
+month={12},
+doi = {10.34133/hds.0196},
+code={https://github.com/nliulab/FL-Benchmark},
+html = {https://spj.science.org/doi/abs/10.34133/hds.0196},
+eprint = {https://spj.science.org/doi/pdf/10.34133/hds.0196},
+abstract={Background: Federated learning (FL) holds promise for safeguarding data privacy in healthcare collaborations. While the term “FL” was originally coined by the engineering community, the statistical field has also developed privacy-preserving algorithms, though these are less recognized. Our goal was to bridge this gap with the first comprehensive comparison of FL frameworks from both domains. Methods: We assessed seven FL frameworks, encompassing both engineering-based and statistical FL algorithms, and compared them against local and centralized modeling of logistic regression and least absolute shrinkage and selection operator (Lasso). Our evaluation utilized both simulated data and real-world emergency department data, focusing on comparing both estimated model coefficients and the performance of model predictions. Results: The findings reveal that statistical FL algorithms produce much less biased estimates of model coefficients. Conversely, engineering-based methods can yield models with slightly better prediction performance, occasionally outperforming both centralized and statistical FL models. Conclusion: This study underscores the relative strengths and weaknesses of both types of methods, providing recommendations for their selection based on distinct study characteristics. Furthermore, we emphasize the critical need to raise awareness of and integrate these methods into future applications of FL within the healthcare domain.},
+selected={true}
+}
+
 @article{fairfml,
   title={FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction},
   author={Siqi Li and Qiming Wu and Xin Li and Di Miao and Chuan Hong and Wenjun Gu and Yuqing Shang and Yohei Okada and Michael Hao Chen and Mengying Yan and Yilin Ning and Marcus Eng Hock Ong and Nan Liu},
@@ -9,21 +25,6 @@
   html={https://arxiv.org/abs/2410.17269},
   code={https://github.com/nliulab/FairFML},
   abstract={Objective: Mitigating algorithmic disparities is a critical challenge in healthcare research, where ensuring equity and fairness is paramount. While large-scale healthcare data exist across multiple institutions, cross-institutional collaborations often face privacy constraints, highlighting the need for privacy-preserving solutions that also promote fairness. Materials and Methods: In this study, we present Fair Federated Machine Learning (FairFML), a model-agnostic solution designed to reduce algorithmic bias in cross-institutional healthcare collaborations while preserving patient privacy. As a proof of concept, we validated FairFML using a real-world clinical case study focused on reducing gender disparities in cardiac arrest outcome prediction. Results: We demonstrate that the proposed FairFML framework enhances fairness in federated learning (FL) models without compromising predictive performance. Our findings show that FairFML improves model fairness by up to 65% compared to the centralized model, while maintaining performance comparable to both local and centralized models, as measured by receiver operating characteristic analysis. Discussion and Conclusion: FairFML offers a promising and flexible solution for FL collaborations, with its adaptability allowing seamless integration with various FL frameworks and models, from traditional statistical methods to deep learning techniques. This makes FairFML a robust approach for developing fairer FL models across diverse clinical and biomedical applications.}
-}
-
-@article{doi:10.34133/hds.0196,
-author = {Siqi Li  and Di Miao  and Qiming Wu  and Chuan Hong  and Danny D’Agostino  and Xin Li  and Yilin Ning  and Yuqing Shang  and Ziwen Wang  and Molei Liu  and Huazhu Fu  and Marcus Eng Hock Ong  and Hamed Haddadi  and Nan Liu },
-title = {Federated Learning in Healthcare: A Benchmark Comparison of Engineering and Statistical Approaches for Structured Data Analysis},
-journal = {Health Data Science},
-volume = {0},
-number = {ja},
-year = {2024},
-doi = {10.34133/hds.0196},
-code={https://github.com/nliulab/FL-Benchmark},
-html = {https://spj.science.org/doi/abs/10.34133/hds.0196},
-eprint = {https://spj.science.org/doi/pdf/10.34133/hds.0196},
-abstract={Background: Federated learning (FL) holds promise for safeguarding data privacy in healthcare collaborations. While the term “FL” was originally coined by the engineering community, the statistical field has also developed privacy-preserving algorithms, though these are less recognized. Our goal was to bridge this gap with the first comprehensive comparison of FL frameworks from both domains. Methods: We assessed seven FL frameworks, encompassing both engineering-based and statistical FL algorithms, and compared them against local and centralized modeling of logistic regression and least absolute shrinkage and selection operator (Lasso). Our evaluation utilized both simulated data and real-world emergency department data, focusing on comparing both estimated model coefficients and the performance of model predictions. Results: The findings reveal that statistical FL algorithms produce much less biased estimates of model coefficients. Conversely, engineering-based methods can yield models with slightly better prediction performance, occasionally outperforming both centralized and statistical FL models. Conclusion: This study underscores the relative strengths and weaknesses of both types of methods, providing recommendations for their selection based on distinct study characteristics. Furthermore, we emphasize the critical need to raise awareness of and integrate these methods into future applications of FL within the healthcare domain.},
-selected={true}
 }
 
 @article{Li2024FedIMPUTE,
