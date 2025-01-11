@@ -17,26 +17,6 @@ abstract={Background: Federated learning (FL) holds promise for safeguarding dat
 selected={true}
 }
 
-@article{fairfml,
-  title={FairFML: Fair Federated Machine Learning with a Case Study on Reducing Gender Disparities in Cardiac Arrest Outcome Prediction},
-  author={Siqi Li and Qiming Wu and Xin Li and Di Miao and Chuan Hong and Wenjun Gu and Yuqing Shang and Yohei Okada and Michael Hao Chen and Mengying Yan and Yilin Ning and Marcus Eng Hock Ong and Nan Liu},
-  journal={arXiv preprint arXiv:2410.17269},
-  year={2024},
-  html={https://arxiv.org/abs/2410.17269},
-  code={https://github.com/nliulab/FairFML},
-  abstract={Objective: Mitigating algorithmic disparities is a critical challenge in healthcare research, where ensuring equity and fairness is paramount. While large-scale healthcare data exist across multiple institutions, cross-institutional collaborations often face privacy constraints, highlighting the need for privacy-preserving solutions that also promote fairness. Materials and Methods: In this study, we present Fair Federated Machine Learning (FairFML), a model-agnostic solution designed to reduce algorithmic bias in cross-institutional healthcare collaborations while preserving patient privacy. As a proof of concept, we validated FairFML using a real-world clinical case study focused on reducing gender disparities in cardiac arrest outcome prediction. Results: We demonstrate that the proposed FairFML framework enhances fairness in federated learning (FL) models without compromising predictive performance. Our findings show that FairFML improves model fairness by up to 65% compared to the centralized model, while maintaining performance comparable to both local and centralized models, as measured by receiver operating characteristic analysis. Discussion and Conclusion: FairFML offers a promising and flexible solution for FL collaborations, with its adaptability allowing seamless integration with various FL frameworks and models, from traditional statistical methods to deep learning techniques. This makes FairFML a robust approach for developing fairer FL models across diverse clinical and biomedical applications.}
-}
-
-@article{Li2024FedIMPUTE,
-  title={FedIMPUTE: Privacy-Preserving Missing Value Imputation for Multi-Site Heterogeneous Electronic Health Records},
-  author={Li, Siqi and Yan, Mengying and Yuan, Ruizhi and Liu, Molei and Liu, Nan and Hong, Chuan},
-  journal={Available at SSRN 4423470}, 
-  year={2024},
-  month = {08},
-  html={https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4930174},
-  code={https://github.com/flemergency/FedIMPUTE},
-  abstract={Objectives:We propose FedIMPUTE, a communication-efficient federated learning (FL) based approach for missing value imputation (MVI). Our method enables multiple sites to collaboratively perform MVI in a privacy-preserving manner, addressing challenges of data-sharing constraints and population heterogeneity.Methods:We begin by conducting MVI locally at each participating site, followed by the application of various FL strategies, ranging from basic to advanced, to federate local MVI models without sharing site-specific data. The federated model is then broadcast and used by each site for MVI. We evaluate FedIMPUTE using both simulation studies and a real-world application on electronic health records (EHRs) to predict emergency department (ED) outcomes as a proof of concept. Results:Simulation studies show that FedIMPUTE outperforms all baseline MVI methods under comparison, improving downstream prediction performance and effectively handling data heterogeneity across sites. By using ED datasets from three hospitals within the Duke University Health System (DUHS), FedIMPUTE achieves the lowest mean squared error (MSE) among benchmark MVI methods, indicating superior imputation accuracy. Additionally, FedIMPUTE provides good downstream prediction performance, outperforming or matching other benchmark methods.Conclusion:FedIMPUTE enhances the performance of downstream risk prediction tasks, particularly for sites with high missing data rates and small sample sizes. It is easy to implement and communication-efficient, requiring sites to share only non-patient-level summary statistics.}
-}
 
 @article{10.1371/journal.pdig.0000542,
     doi = {10.1371/journal.pdig.0000542},
@@ -54,26 +34,6 @@ selected={true}
     number = {7},
 }
 
-@article{li2024bridging,
-  title={Bridging Data Gaps in Healthcare: A Scoping Review of Transfer Learning in Biomedical Data Analysis},
-  author={Li, Siqi and Li, Xin and Yu, Kunyu and Miao, Di and Zhu, Mingcheng and Yan, Mengying and Ke, Yuhe and D'Agostino, Danny and Ning, Yilin and Wu, Qiming and Wang, Ziwen and Shang, Yuqing and Liu, Molei and Hong, Chuan and Liu, Nan},
-  journal={arXiv preprint arXiv:2407.11034},
-  year={2024},
-  month={07},
-  html={https://arxiv.org/abs/2407.11034},
-  abstract={Clinical and biomedical research in low-resource settings often faces significant challenges due to the need for high-quality data with sufficient sample sizes to construct effective models. These constraints hinder robust model training and prompt researchers to seek methods for leveraging existing knowledge from related studies to support new research efforts. Transfer learning (TL), a machine learning technique, emerges as a powerful solution by utilizing knowledge from pre-trained models to enhance the performance of new models, offering promise across various healthcare domains. Despite its conceptual origins in the 1990s, the application of TL in medical research has remained limited, especially beyond image analysis. In our review of TL applications in structured clinical and biomedical data, we screened 3,515 papers, with 55 meeting the inclusion criteria. Among these, only 2% (one out of 55) utilized external studies, and 7% (four out of 55) addressed scenarios involving multi-site collaborations with privacy constraints. To achieve actionable TL with structured medical data while addressing regional disparities, inequality, and privacy constraints in healthcare research, we advocate for the careful identification of appropriate source data and models, the selection of suitable TL frameworks, and the validation of TL models with proper baselines.}
-}
-
-@article{li2024developing,
-  title={Developing Federated Time-to-Event Scores Using Heterogeneous Real-World Survival Data},
-  author={Li, Siqi and Shang, Yuqing and Wang, Ziwen and Wu, Qiming and Hong, Chuan and Ning, Yilin and Miao, Di and Ong, Marcus Eng Hock and Chakraborty, Bibhas and Liu, Nan},
-  journal={arXiv preprint arXiv:2403.05229},
-  year={2024},
-  month={03},
-  html={https://arxiv.org/abs/2403.05229},
-  code={https://github.com/nliulab/FedScore},
-  abstract={Survival analysis serves as a fundamental component in numerous healthcare applications, where the determination of the time to specific events (such as the onset of a certain disease or death) for patients is crucial for clinical decision-making. Scoring systems are widely used for swift and efficient risk prediction. However, existing methods for constructing survival scores presume that data originates from a single source, posing privacy challenges in collaborations with multiple data owners. We propose a novel framework for building federated scoring systems for multi-site survival outcomes, ensuring both privacy and communication efficiency. We applied our approach to sites with heterogeneous survival data originating from emergency departments in Singapore and the United States. Additionally, we independently developed local scores at each site. In testing datasets from each participant site, our proposed federated scoring system consistently outperformed all local models, evidenced by higher integrated area under the receiver operating characteristic curve (iAUC) values, with a maximum improvement of 11.6%. Additionally, the federated score's time-dependent AUC(t) values showed advantages over local scores, exhibiting narrower confidence intervals (CIs) across most time points. The model developed through our proposed method exhibits effective performance on each local site, signifying noteworthy implications for healthcare research. Sites participating in our proposed federated scoring model training gained benefits by acquiring survival models with enhanced prediction accuracy and efficiency. This study demonstrates the effectiveness of our privacy-preserving federated survival score generation framework and its applicability to real-world heterogeneous survival data.}
-}
 
 @article{TEO2024101419,
 title = {Federated machine learning in healthcare: A systematic review on clinical applications and technical architecture},
