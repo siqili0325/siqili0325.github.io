@@ -1,0 +1,214 @@
+---
+---
+@article{LI2025104780,
+title = {FedIMPUTE: Privacy-preserving missing value imputation for multi-site heterogeneous electronic health records},
+journal = {Journal of Biomedical Informatics},
+pages = {104780},
+year = {2025},
+month={03},
+issn = {1532-0464},
+doi = {https://doi.org/10.1016/j.jbi.2025.104780},
+html = {https://www.sciencedirect.com/science/article/pii/S1532046425000097},
+author = {Siqi Li and Mengying Yan and Ruizhi Yuan and Molei Liu and Nan Liu and Chuan Hong},
+keywords = {Clinical decision-making, Electronic health records, Federated learning, Missing values},
+code={https://github.com/flemergency/FedIMPUTE},
+selected={true},
+abstract = {Objective:
+We propose FedIMPUTE, a communication-efficient federated learning (FL) based approach for missing value imputation (MVI). Our method enables multiple sites to collaboratively perform MVI in a privacy-preserving manner, addressing challenges of data-sharing constraints and population heterogeneity.
+Methods:
+We begin by conducting MVI locally at each participating site, followed by the application of various FL strategies, ranging from basic to advanced, to federate local MVI models without sharing site-specific data. The federated model is then broadcast and used by each site for MVI. We evaluate FedIMPUTE using both simulation studies and a real-world application on electronic health records (EHRs) to predict emergency department (ED) outcomes as a proof of concept.
+Results:
+Simulation studies show that FedIMPUTE outperforms all baseline MVI methods under comparison, improving downstream prediction performance and effectively handling data heterogeneity across sites. By using ED datasets from three hospitals within the Duke University Health System (DUHS), FedIMPUTE achieves the lowest mean squared error (MSE) among benchmark MVI methods, indicating superior imputation accuracy. Additionally, FedIMPUTE provides good downstream prediction performance, outperforming or matching other benchmark methods.
+Conclusion:
+FedIMPUTE enhances the performance of downstream risk prediction tasks, particularly for sites with high missing data rates and small sample sizes. It is easy to implement and communication-efficient, requiring sites to share only non-patient-level summary statistics.}
+}
+
+@article{FLB,
+author = {Siqi Li  and Di Miao  and Qiming Wu  and Chuan Hong  and Danny D’Agostino  and Xin Li  and Yilin Ning  and Yuqing Shang  and Ziwen Wang  and Molei Liu  and Huazhu Fu  and Marcus Eng Hock Ong  and Hamed Haddadi  and Nan Liu },
+title = {Federated Learning in Healthcare: A Benchmark Comparison of Engineering and Statistical Approaches for Structured Data Analysis},
+journal = {Health Data Science},
+volume = {4},
+number = {},
+year = {2024},
+month={12},
+doi = {10.34133/hds.0196},
+code={https://github.com/nliulab/FL-Benchmark},
+html = {https://spj.science.org/doi/abs/10.34133/hds.0196},
+eprint = {https://spj.science.org/doi/pdf/10.34133/hds.0196},
+abstract={Background: Federated learning (FL) holds promise for safeguarding data privacy in healthcare collaborations. While the term “FL” was originally coined by the engineering community, the statistical field has also developed privacy-preserving algorithms, though these are less recognized. Our goal was to bridge this gap with the first comprehensive comparison of FL frameworks from both domains. Methods: We assessed seven FL frameworks, encompassing both engineering-based and statistical FL algorithms, and compared them against local and centralized modeling of logistic regression and least absolute shrinkage and selection operator (Lasso). Our evaluation utilized both simulated data and real-world emergency department data, focusing on comparing both estimated model coefficients and the performance of model predictions. Results: The findings reveal that statistical FL algorithms produce much less biased estimates of model coefficients. Conversely, engineering-based methods can yield models with slightly better prediction performance, occasionally outperforming both centralized and statistical FL models. Conclusion: This study underscores the relative strengths and weaknesses of both types of methods, providing recommendations for their selection based on distinct study characteristics. Furthermore, we emphasize the critical need to raise awareness of and integrate these methods into future applications of FL within the healthcare domain.},
+selected={true}
+}
+
+@article{10.1371/journal.pdig.0000542,
+    doi = {10.1371/journal.pdig.0000542},
+    author = {Ning, Yilin AND Li, Siqi AND Ng, Yih Yng AND Chia, Michael Yih Chong AND Gan, Han Nee AND Tiah, Ling AND Mao, Desmond Renhao AND Ng, Wei Ming AND Leong, Benjamin Sieu-Hon AND Doctor, Nausheen AND Ong, Marcus Eng Hock AND Liu, Nan},
+    journal = {PLOS Digital Health},
+    publisher = {Public Library of Science},
+    title = {Variable importance analysis with interpretable machine learning for fair risk prediction},
+    year = {2024},
+    month = {07},
+    volume = {3},
+    html={https://doi.org/10.1371/journal.pdig.0000542},
+    code={https://github.com/nliulab/ShapleyVIC},
+    pages = {1-15},
+    abstract = {Machine learning (ML) methods are increasingly used to assess variable importance, but such black box models lack stability when limited in sample sizes, and do not formally indicate non-important factors. The Shapley variable importance cloud (ShapleyVIC) addresses these limitations by assessing variable importance from an ensemble of regression models, which enhances robustness while maintaining interpretability, and estimates uncertainty of overall importance to formally test its significance. In a clinical study, ShapleyVIC reasonably identified important variables when the random forest and XGBoost failed to, and generally reproduced the findings from smaller subsamples (n = 2500 and 500) when statistical power of the logistic regression became attenuated. Moreover, ShapleyVIC reasonably estimated non-significant importance of race to justify its exclusion from the final prediction model, as opposed to the race-dependent model from the conventional stepwise model building. Hence, ShapleyVIC is robust and interpretable for variable importance assessment, with potential contribution to fairer clinical risk prediction.},
+    number = {7},
+}
+
+@article{TEO2024101419,
+title = {Federated machine learning in healthcare: A systematic review on clinical applications and technical architecture},
+journal = {Cell Reports Medicine},
+volume = {5},
+number = {2},
+pages = {101419},
+year = {2024},
+month={02},
+issn = {2666-3791},
+doi = {https://doi.org/10.1016/j.xcrm.2024.101419},
+html = {https://www.sciencedirect.com/science/article/pii/S2666379124000429},
+author = {Zhen Ling Teo and Liyuan Jin and Nan Liu and Siqi Li and Di Miao and Xiaoman Zhang and Wei Yan Ng and Ting Fang Tan and Deborah Meixuan Lee and Kai Jie Chua and John Heng and Yong Liu and Rick Siow Mong Goh and Daniel Shu Wei Ting},
+keywords = {federated learning, systematic review, artificial intelligence, healthcare},
+abstract = {Summary
+Federated learning (FL) is a distributed machine learning framework that is gaining traction in view of increasing health data privacy protection needs. By conducting a systematic review of FL applications in healthcare, we identify relevant articles in scientific, engineering, and medical journals in English up to August 31st, 2023. Out of a total of 22,693 articles under review, 612 articles are included in the final analysis. The majority of articles are proof-of-concepts studies, and only 5.2% are studies with real-life application of FL. Radiology and internal medicine are the most common specialties involved in FL. FL is robust to a variety of machine learning models and data types, with neural networks and medical imaging being the most common, respectively. We highlight the need to address the barriers to clinical translation and to assess its real-world impact in this new digital data-driven healthcare scene.}
+}
+
+@article{10.1093/narcan/zcad060,
+    author = {Asfaw, Eliyas and Lin, Asiyah Yu and Huffman, Anthony and Li, Siqi and George, Madison and Darancou, Chloe and Kalter, Madison and Wehbi, Nader and Bartels, Davis and Fleck, Elyse and Tran, Nancy and Faghihnia, Daniel and Berke, Kimberly and Sutariya, Ronak and Reyal, Farah and Tammam, Youssef and Zhao, Bin and Ong, Edison and Xiang, Zuoshuang and He, Virginia and Song, Justin and Seleznev, Andrey I and Guo, Jinjing and Pan, Yuanyi and Zheng, Jie and He, Yongqun},
+    title = "{CanVaxKB: a web-based cancer vaccine knowledgebase}",
+    journal = {NAR Cancer},
+    volume = {6},
+    number = {1},
+    pages = {zcad060},
+    year = {2024},
+    month = {01},
+    abstract = "{Cancer vaccines have been increasingly studied and developed to prevent or treat various types of cancers. To systematically survey and analyze different reported cancer vaccines, we developed CanVaxKB (https://violinet.org/canvaxkb), the first web-based cancer vaccine knowledgebase that compiles over 670 therapeutic or preventive cancer vaccines that have been experimentally verified to be effective at various stages. Vaccine construction and host response data are also included. These cancer vaccines are developed against various cancer types such as melanoma, hematological cancer, and prostate cancer. CanVaxKB has stored 263 genes or proteins that serve as cancer vaccine antigen genes, which we have collectively termed ‘canvaxgens’. Top three mostly used canvaxgens are PMEL, MLANA and CTAG1B, often targeting multiple cancer types. A total of 193 canvaxgens are also reported in cancer-related ONGene, Network of Cancer Genes and/or Sanger Cancer Gene Consensus databases. Enriched functional annotations and clusters of canvaxgens were identified and analyzed. User-friendly web interfaces are searchable for querying and comparing cancer vaccines. CanVaxKB cancer vaccines are also semantically represented by the community-based Vaccine Ontology to support data exchange. Overall, CanVaxKB is a timely and vital cancer vaccine source that facilitates efficient collection and analysis, further helping researchers and physicians to better understand cancer mechanisms.}",
+    issn = {2632-8674},
+    doi = {10.1093/narcan/zcad060},
+    html = {https://doi.org/10.1093/narcan/zcad060},
+    eprint = {https://academic.oup.com/narcancer/article-pdf/6/1/zcad060/55261340/zcad060.pdf},
+}
+
+@article{li2023fedscore,
+  title={FedScore: A privacy-preserving framework for federated scoring system development},
+  author={Li, Siqi and Ning, Yilin and Ong, Marcus Eng Hock and Chakraborty, Bibhas and Hong, Chuan and Xie, Feng and Yuan, Han and Liu, Mingxuan and Buckland, Daniel M and Chen, Yong and Nan Liu},
+  journal={Journal of Biomedical Informatics},
+  volume={146},
+  pages={104485},
+  year={2023},
+  month={10},
+  publisher={Elsevier},
+  code={https://github.com/nliulab/FedScore},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S153204642300206X},
+  abstract={Objective
+We propose FedScore, a privacy-preserving federated learning framework for scoring system generation across multiple sites to facilitate cross-institutional collaborations.
+
+Materials and methods
+The FedScore framework includes five modules: federated variable ranking, federated variable transformation, federated score derivation, federated model selection and federated model evaluation. To illustrate usage and assess FedScore’s performance, we built a hypothetical global scoring system for mortality prediction within 30 days after a visit to an emergency department using 10 simulated sites divided from a tertiary hospital in Singapore. We employed a pre-existing score generator to construct 10 local scoring systems independently at each site and we also developed a scoring system using centralized data for comparison.
+
+Results
+We compared the acquired FedScore model’s performance with that of other scoring models using the receiver operating characteristic (ROC) analysis. The FedScore model achieved an average area under the curve (AUC) value of 0.763 across all sites, with a standard deviation (SD) of 0.020. We also calculated the average AUC values and SDs for each local model, and the FedScore model showed promising accuracy and stability with a high average AUC value which was closest to the one of the pooled model and SD which was lower than that of most local models.
+
+Conclusion
+This study demonstrates that FedScore is a privacy-preserving scoring system generator with potentially good generalizability.}
+}
+
+@article{10.1093/jamia/ocad170,
+    author = {Li, Siqi and Liu, Pinyan and Nascimento, Gustavo G and Wang, Xinru and Leite, Fabio Renato Manzolli and Chakraborty, Bibhas and Hong, Chuan and Ning, Yilin and Xie, Feng and Teo, Zhen Ling and Ting, Daniel Shu Wei and Haddadi, Hamed and Ong, Marcus Eng Hock and Peres, Marco Aurélio and Liu, Nan},
+    title = "{Federated and distributed learning applications for electronic health records and structured medical data: a scoping review}",
+    journal = {Journal of the American Medical Informatics Association},
+    volume = {30},
+    number = {12},
+    pages = {2041-2049},
+    year = {2023},
+    month = {08},
+    abstract = "{Federated learning (FL) has gained popularity in clinical research in recent years to facilitate privacy-preserving collaboration. Structured data, one of the most prevalent forms of clinical data, has experienced significant growth in volume concurrently, notably with the widespread adoption of electronic health records in clinical practice. This review examines FL applications on structured medical data, identifies contemporary limitations, and discusses potential innovations.We searched 5 databases, SCOPUS, MEDLINE, Web of Science, Embase, and CINAHL, to identify articles that applied FL to structured medical data and reported results following the PRISMA guidelines. Each selected publication was evaluated from 3 primary perspectives, including data quality, modeling strategies, and FL frameworks.Out of the 1193 papers screened, 34 met the inclusion criteria, with each article consisting of one or more studies that used FL to handle structured clinical/medical data. Of these, 24 utilized data acquired from electronic health records, with clinical predictions and association studies being the most common clinical research tasks that FL was applied to. Only one article exclusively explored the vertical FL setting, while the remaining 33 explored the horizontal FL setting, with only 14 discussing comparisons between single-site (local) and FL (global) analysis.The existing FL applications on structured medical data lack sufficient evaluations of clinically meaningful benefits, particularly when compared to single-site analyses. Therefore, it is crucial for future FL applications to prioritize clinical motivations and develop designs and methodologies that can effectively support and aid clinical practice and research.}",
+    issn = {1527-974X},
+    doi = {10.1093/jamia/ocad170},
+    html = {https://doi.org/10.1093/jamia/ocad170},
+    eprint = {https://academic.oup.com/jamia/article-pdf/30/12/2041/53477519/ocad170.pdf},
+    selected={true}
+}
+
+@article{LIU2023102587,
+title = {Handling missing values in healthcare data: A systematic review of deep learning-based imputation techniques},
+journal = {Artificial Intelligence in Medicine},
+volume = {142},
+pages = {102587},
+year = {2023},
+month={08},
+issn = {0933-3657},
+doi = {https://doi.org/10.1016/j.artmed.2023.102587},
+html = {https://www.sciencedirect.com/science/article/pii/S093336572300101X},
+author = {Mingxuan Liu and Siqi Li and Han Yuan and Marcus Eng Hock Ong and Yilin Ning and Feng Xie and Seyed Ehsan Saffari and Yuqing Shang and Victor Volovici and Bibhas Chakraborty and Nan Liu},
+keywords = {Missing value, Imputation, Deep learning, Neural networks, Healthcare},
+abstract = {Objective
+The proper handling of missing values is critical to delivering reliable estimates and decisions, especially in high-stakes fields such as clinical research. In response to the increasing diversity and complexity of data, many researchers have developed deep learning (DL)-based imputation techniques. We conducted a systematic review to evaluate the use of these techniques, with a particular focus on the types of data, intending to assist healthcare researchers from various disciplines in dealing with missing data.
+Materials and methods
+We searched five databases (MEDLINE, Web of Science, Embase, CINAHL, and Scopus) for articles published prior to February 8, 2023 that described the use of DL-based models for imputation. We examined selected articles from four perspectives: data types, model backbones (i.e., main architectures), imputation strategies, and comparisons with non-DL-based methods. Based on data types, we created an evidence map to illustrate the adoption of DL models.
+Results
+Out of 1822 articles, a total of 111 were included, of which tabular static data (29%, 32/111) and temporal data (40%, 44/111) were the most frequently investigated. Our findings revealed a discernible pattern in the choice of model backbones and data types, for example, the dominance of autoencoder and recurrent neural networks for tabular temporal data. The discrepancy in imputation strategy usage among data types was also observed. The “integrated” imputation strategy, which solves the imputation task simultaneously with downstream tasks, was most popular for tabular temporal data (52%, 23/44) and multi-modal data (56%, 5/9). Moreover, DL-based imputation methods yielded a higher level of imputation accuracy than non-DL methods in most studies.
+Conclusion
+The DL-based imputation models are a family of techniques, with diverse network structures. Their designation in healthcare is usually tailored to data types with different characteristics. Although DL-based imputation models may not be superior to conventional approaches across all datasets, it is highly possible for them to achieve satisfactory results for a particular data type or dataset. There are, however, still issues with regard to portability, interpretability, and fairness associated with current DL-based imputation models.}
+}
+
+@article{XIE2023102302,
+title = {A universal AutoScore framework to develop interpretable scoring systems for predicting common types of clinical outcomes},
+journal = {STAR Protocols},
+volume = {4},
+number = {2},
+pages = {102302},
+year = {2023},
+month={06},
+issn = {2666-1667},
+doi = {https://doi.org/10.1016/j.xpro.2023.102302},
+html = {https://www.sciencedirect.com/science/article/pii/S2666166723002691},
+code={https://github.com/nliulab/AutoScore},
+author = {Feng Xie and Yilin Ning and Mingxuan Liu and Siqi Li and Seyed Ehsan Saffari and Han Yuan and Victor Volovici and Daniel Shu Wei Ting and Benjamin Alan Goldstein and Marcus Eng Hock Ong and Roger Vaughan and Bibhas Chakraborty and Nan Liu},
+keywords = {Health Sciences, Computer sciences},
+abstract = {Summary
+The AutoScore framework can automatically generate data-driven clinical scores in various clinical applications. Here, we present a protocol for developing clinical scoring systems for binary, survival, and ordinal outcomes using the open-source AutoScore package. We describe steps for package installation, detailed data processing and checking, and variable ranking. We then explain how to iterate through steps for variable selection, score generation, fine-tuning, and evaluation to generate understandable and explainable scoring systems using data-driven evidence and clinical knowledge. For complete details on the use and execution of this protocol, please refer to Xie et al. (2020),1 Xie et al. (2022)2, Saffari et al. (2022)3 and the online tutorial https://nliulab.github.io/AutoScore/.}
+}
+
+@article{xie2022benchmarking,
+  title={Benchmarking emergency department prediction models with machine learning and public electronic health records},
+  author={Xie, Feng and Zhou, Jun and Lee, Jin Wee and Tan, Mingrui and Li, Siqi and Rajnthern, Logasan S/O and Chee, Marcel Lucas and Chakraborty, Bibhas and Wong, An-Kwok Ian and Dagan, Alon and Ong, Marcus Eng Hock and Gao, Fei and Liu, Nan},
+  journal={Scientific Data},
+  volume={9},
+  number={1},
+  pages={658},
+  year={2022},
+  month={10},
+  publisher={Nature Publishing Group UK London},
+  html={https://www.nature.com/articles/s41597-022-01782-9},
+  code={https://github.com/nliulab/mimic4ed-benchmark},
+  abstract={The demand for emergency department (ED) services is increasing across the globe, particularly during the current COVID-19 pandemic. Clinical triage and risk assessment have become increasingly challenging due to the shortage of medical resources and the strain on hospital infrastructure caused by the pandemic. As a result of the widespread use of electronic health records (EHRs), we now have access to a vast amount of clinical data, which allows us to develop prediction models and decision support systems to address these challenges. To date, there is no widely accepted clinical prediction benchmark related to the ED based on large-scale public EHRs. An open-source benchmark data platform would streamline research workflows by eliminating cumbersome data preprocessing, and facilitate comparisons among different studies and methodologies. Based on the Medical Information Mart for Intensive Care IV Emergency Department (MIMIC-IV-ED) database, we created a benchmark dataset and proposed three clinical prediction benchmarks. This study provides future researchers with insights, suggestions, and protocols for managing data and developing predictive tools for emergency care.}
+}
+
+@article{ning2022novel,
+  title={A novel interpretable machine learning system to generate clinical risk scores: An application for predicting early mortality or unplanned readmission in a retrospective cohort study},
+  author={Ning, Yilin and Li, Siqi and Ong, Marcus Eng Hock and Xie, Feng and Chakraborty, Bibhas and Ting, Daniel Shu Wei and Liu, Nan},
+  journal={PLOS Digital Health},
+  volume={1},
+  number={6},
+  pages={e0000062},
+  year={2022},
+  month={06},
+  publisher={Public Library of Science San Francisco, CA USA},
+  code={https://github.com/nliulab/ShapleyVIC},
+  html={https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000062},
+  abstract={Risk scores are widely used for clinical decision making and commonly generated from logistic regression models. Machine-learning-based methods may work well for identifying important predictors to create parsimonious scores, but such ‘black box’ variable selection limits interpretability, and variable importance evaluated from a single model can be biased. We propose a robust and interpretable variable selection approach using the recently developed Shapley variable importance cloud (ShapleyVIC) that accounts for variability in variable importance across models. Our approach evaluates and visualizes overall variable contributions for in-depth inference and transparent variable selection, and filters out non-significant contributors to simplify model building steps. We derive an ensemble variable ranking from variable contributions across models, which is easily integrated with an automated and modularized risk score generator, AutoScore, for convenient implementation. In a study of early death or unplanned readmission after hospital discharge, ShapleyVIC selected 6 variables from 41 candidates to create a well-performing risk score, which had similar performance to a 16-variable model from machine-learning-based ranking. Our work contributes to the recent emphasis on interpretability of prediction models for high-stakes decision making, providing a disciplined solution to detailed assessment of variable importance and transparent development of parsimonious clinical risk scores.}
+}
+
+@article{ang2022development,
+  title={Development and validation of an interpretable clinical score for early identification of acute kidney injury at the emergency department},
+  author={Ang, Yukai and Li, Siqi and Ong, Marcus Eng Hock and Xie, Feng and Teo, Su Hooi and Choong, Lina and Koniman, Riece and Chakraborty, Bibhas and Ho, Andrew Fu Wah and Liu, Nan},
+  journal={Scientific Reports},
+  volume={12},
+  number={1},
+  pages={7111},
+  year={2022},
+  month={05},
+  publisher={Nature Publishing Group UK London},
+  html={https://www.nature.com/articles/s41598-022-11129-4},
+  abstract={Acute kidney injury (AKI) in hospitalised patients is a common syndrome associated with poorer patient outcomes. Clinical risk scores can be used for the early identification of patients at risk of AKI. We conducted a retrospective study using electronic health records of Singapore General Hospital emergency department patients who were admitted from 2008 to 2016. The primary outcome was inpatient AKI of any stage within 7 days of admission based on the Kidney Disease Improving Global Outcome (KDIGO) 2012 guidelines. A machine learning-based framework AutoScore was used to generate clinical scores from the study sample which was randomly divided into training, validation and testing cohorts. Model performance was evaluated using area under the curve (AUC). Among the 119,468 admissions, 10,693 (9.0%) developed AKI. 8491 were stage 1 (79.4%), 906 stage 2 (8.5%) and 1296 stage 3 (12.1%). The AKI Risk Score (AKI-RiSc) was a summation of the integer scores of 6 variables: serum creatinine, serum bicarbonate, pulse, systolic blood pressure, diastolic blood pressure, and age. AUC of AKI-RiSc was 0.730 (95% CI 0.714–0.747), outperforming an existing AKI Prediction Score model which achieved AUC of 0.665 (95% CI 0.646–0.679) on the testing cohort. At a cut-off of 4 points, AKI-RiSc had a sensitivity of 82.6% and specificity of 46.7%. AKI-RiSc is a simple clinical score that can be easily implemented on the ground for early identification of AKI and potentially be applied in international settings.}
+}
