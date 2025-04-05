@@ -11,8 +11,13 @@
 - title: Education
   type: time_table
   contents:
+    - title: PhD in Biostatistics and Health Data Science 
+      institution: Duke-NUS Medical School, Singapore
+      year: 2025.03
+      description:
+        - Privacy‑Preserving Machine Learning for Interpretable and Trustworthy Clinical Decision Making
     - title: Bachelor of Science in Mathematics and Statistics
-      institution: University of Michigan, Ann Arbor, Michigan, USA
+      institution: University of Michigan, Ann Arbor
       year: 2021.04
       description:
         - With High Distinction (GPA 3.91/4.00) and High Honors in Statistics
