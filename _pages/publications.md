@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: Papers
 nav: true
 nav_order: 2
 ---
 
-Stay updated with latest preprints [here](https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en). 
+See the most current and complete list of works [here](https://scholar.google.com/citations?user=n3zwPHkAAAAJ&hl=en). 
 
 <!-- Bibsearch Feature -->
 
