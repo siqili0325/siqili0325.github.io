@@ -1,0 +1,113 @@
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Siqi Li
+#     # - name: Date of Birth
+#     #   value: 25th March 1998
+#     # - name: Languages
+#     #   value: English, Chinese
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Biostatistics and Health Data Science 
+      institution: Duke-NUS Medical School, Singapore
+      year: 2025.03
+      description:
+        - Privacy‑Preserving Machine Learning for Interpretable and Trustworthy Clinical Decision Making
+    - title: Bachelor of Science in Mathematics and Statistics
+      institution: University of Michigan, Ann Arbor
+      year: 2021.04
+      description:
+        - With High Distinction (GPA 3.91/4.00) and High Honors in Statistics
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    # - title: Federal teaching diploma
+    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+    #   year: 1900
+    #   description:
+    #     - Description 1.
+    #     - Description 2.
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Department of Computing, Imperial Colllege London
+      year:  2022.12 - 2023.05
+      description:
+        - Visiting PhD student supervised by Prof. Hamed Haddadi
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Independent Study
+      institution: Department of Statistics, University of Michigan
+      year: 2020.01 - 2021.04
+      description:
+        - Supervised by Prof. Kerby Shedden; Honors thesis - <a href="https://drive.google.com/file/d/14tf0MGQ4rOotmwVfcAnDwLZA7WaObCmI/view?pli=1" target="_blank">Local False Discovery Rates in the Multi‑Parameter Case, with Application to Epigenetics of Human Growth</a>
+    - title: Undergraduate Research Assistant
+      institution: University of Michigan Medical School
+      year: 2019.09 - 2021.03
+      description:
+        - Supervised by Prof. Oliver He; contributed to <a href="https://violinet.org/canvaxkb/" target="_blank">CanVaxKB, a web‑based cancer vaccine knowledgebase</a>
+    - title: Independent Study
+      institution: Department of Ecology and Evolutionary Biology, University of Michigan
+      year: 2019.05 - 2020.08
+      description:
+        - Supervised by Prof. Annette Ostling; contributed to computational modeling of the neutral theory of biodiversity
+        
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Math Grader
+      institution: Department of Mathematics, University of Michigan
+      year: 2021.01 - 2021.04
+      description:
+        - Math 451 Advanced Calculus I
+
+    - title: Math Tutor
+      institution: Science Learning Center, University of Michigan
+      year: 2020.05 - 2020.08
+      description:
+        - Spring and Summer Math Tutoring
+
+    - title: Study Group Facilitator
+      institution: Science Learning Center, University of Michigan
+      year: 2019.09 - 2019.12
+      description: 
+        - BIOLOGY 305 Genetics
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - Khoo Postdoctoral Fellowship Award
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Federated & Transfer Learning
+#       items:
+#         - Applications to EHRs
+#         # - Description 2.
+#     - title: Missing Values
+#       # items:
+#       #   - Description 1.
+#       #   - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
