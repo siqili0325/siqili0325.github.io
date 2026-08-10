@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ruby -v)",
+      "Bash(bundle -v)",
+      "Bash(jekyll -v)",
+      "Bash(bundle check *)",
+      "Bash(bundle config *)",
+      "Bash(bundle install *)",
+      "Bash(break)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:4000/publications/)"
+    ]
+  }
+}
